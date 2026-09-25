@@ -1,0 +1,21 @@
+# Machine energy parameters (assumed values, replaceable).
+# Columns: machine_id  P_proc_base(kW)  P_idle(kW)  E_switch(kWh)
+#   machine_id : 1-indexed, matches the machine columns in the Kim job files
+#   P_proc_base: base processing power at speed level 2 (standard)
+#   P_idle     : idle (on-but-not-processing) power
+#   E_switch   : one-off energy to switch a machine OFF then ON again
+1   5.0   1.0   8.0
+2   4.5   0.8   7.0
+3   6.0   1.2   9.0
+4   4.0   0.7   6.5
+5   5.5   1.1   8.5
+6   4.8   0.9   7.5
+7   6.2   1.2   9.5
+8   4.2   0.7   6.0
+9   5.8   1.1   9.0
+10  4.6   0.8   7.0
+11  5.2   1.0   8.0
+12  6.5   1.3  10.0
+13  4.4   0.8   6.8
+14  5.6   1.1   8.6
+15  4.9   0.9   7.4

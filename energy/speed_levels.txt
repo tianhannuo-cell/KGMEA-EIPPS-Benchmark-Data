@@ -1,0 +1,10 @@
+# Global speed levels (assumed values, replaceable).
+# Columns: level  tau(time_factor)  kappa(power_factor)
+#   processing time  t(o,m,v) = round( base_time(o,m) * tau_v )
+#   processing power P(m,v)   = P_proc_base(m) * kappa_v
+# Level 1 = slow  : longer time, lower power  -> saves energy, hurts makespan
+# Level 2 = normal: baseline
+# Level 3 = fast  : shorter time, higher power -> hurts energy, helps makespan
+1   1.30   0.75
+2   1.00   1.00
+3   0.80   1.45
